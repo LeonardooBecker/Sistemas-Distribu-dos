@@ -37,8 +37,9 @@ void imprimeState(int processo, int *state, int tamanho)
 
 void obtemDiagnostico(int token, int tokenTeste, TipoProcesso *processo, node_set *nodes)
 {
-   for(int nd = 0; nd < nodes->size; nd++){
-      if(nodes->nodes[nd] != tokenTeste)
+   for (int nd = 0; nd < nodes->size; nd++)
+   {
+      if (nodes->nodes[nd] != tokenTeste)
       {
          int tokenDiag = nodes->nodes[nd];
          processo[token].STATE[tokenDiag] = processo[tokenTeste].STATE[tokenDiag];
@@ -122,6 +123,7 @@ int main(int argc, char *argv[])
 
    while (time() < 150.0)
    {
+      
       cause(&event, &token);
       switch (event)
       {
@@ -143,7 +145,6 @@ int main(int argc, char *argv[])
                // Se correto
                if (status(processo[tokenTeste].id) == 0)
                {
-                  printf("O processo [%d] testou o processo [%d] correto no tempo %4.1f.\n", token, tokenTeste, time());
 
                   // Se tava marcado como errado/desconhecido, agora ta como certo
                   if (abs(processo[token].STATE[tokenTeste] % 2) == 1)
@@ -152,18 +153,21 @@ int main(int argc, char *argv[])
                   }
                   // Obtem o diagostico do cluster?
                   obtemDiagnostico(token, tokenTeste, processo, nodes);
+
+                  printf("O processo [%d] testou o processo [%d] correto no tempo %4.1f.\n", token, tokenTeste, time());
                   imprimeState(token, processo[token].STATE, N);
                   break;
                }
                else
                {
-                  printf("O processo [%d] testou o processo [%d] falho no tempo %4.1f.\n", token, tokenTeste, time());
 
                   // Se tava marcado como certo, agora ta como errado
                   if (abs(processo[token].STATE[tokenTeste] % 2) == 0)
                      processo[token].STATE[tokenTeste]++;
 
+                  printf("O processo [%d] testou o processo [%d] falho no tempo %4.1f.\n", token, tokenTeste, time());
                   imprimeState(token, processo[token].STATE, N);
+
                   break;
                }
             }
