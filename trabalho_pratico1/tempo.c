@@ -35,6 +35,17 @@ void imprimeState(int processo, int *state, int tamanho)
    printf("\n");
 }
 
+void obtemDiagnostico(int token, int tokenTeste, TipoProcesso *processo, node_set *nodes)
+{
+   for(int nd = 0; nd < nodes->size; nd++){
+      if(nodes->nodes[nd] != tokenTeste)
+      {
+         int tokenDiag = nodes->nodes[nd];
+         processo[token].STATE[tokenDiag] = processo[tokenTeste].STATE[tokenDiag];
+      }
+   }
+}
+
 int main(int argc, char *argv[])
 {
 
@@ -132,28 +143,29 @@ int main(int argc, char *argv[])
                // Se correto
                if (status(processo[tokenTeste].id) == 0)
                {
-                  printf("O processo %d testou o processo %d correto no tempo %4.1f.\n", token, tokenTeste, time());
+                  printf("O processo [%d] testou o processo [%d] correto no tempo %4.1f.\n", token, tokenTeste, time());
 
                   // Se tava marcado como errado/desconhecido, agora ta como certo
                   if (abs(processo[token].STATE[tokenTeste] % 2) == 1)
                   {
                      processo[token].STATE[tokenTeste]++;
                   }
+                  // Obtem o diagostico do cluster?
+                  obtemDiagnostico(token, tokenTeste, processo, nodes);
                   imprimeState(token, processo[token].STATE, N);
                   break;
-                  // Obtem o diagostico
                }
                else
                {
-                  printf("O processo %d testou o processo %d falho no tempo %4.1f.\n", token, tokenTeste, time());
+                  printf("O processo [%d] testou o processo [%d] falho no tempo %4.1f.\n", token, tokenTeste, time());
 
                   // Se tava marcado como certo, agora ta como errado
                   if (abs(processo[token].STATE[tokenTeste] % 2) == 0)
                      processo[token].STATE[tokenTeste]++;
 
                   imprimeState(token, processo[token].STATE, N);
+                  break;
                }
-
             }
          }
          // printf("\n");
