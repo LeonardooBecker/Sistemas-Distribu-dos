@@ -122,10 +122,10 @@ int main(int argc, char *argv[])
    node_set *nodes;
    int finalizaLoop = 0;
    int latencia[N];
-   for(int i = 0; i < N; i++){
+   for (int i = 0; i < N; i++)
+   {
       latencia[i] = 1;
    }
-
 
    while (1)
    {
@@ -160,16 +160,17 @@ int main(int argc, char *argv[])
                   // Obtem o diagostico do cluster?
                   obtemDiagnostico(token, tokenTeste, processo, nodes);
 
-                  printf("O processo [%d] testou o processo [%d] correto no tempo %4.1f.\n", token, tokenTeste, time());
-                  if((processo[token].STATE[0] == -1) || (processo[token].STATE[0] == 0))
-                     latencia[token]++;
 
+                  printf("O processo [%d] testou o processo [%d] correto no tempo %4.1f.\n", token, tokenTeste, time());
                   imprimeState(token, processo[token].STATE, N);
+
+                  // Soma 1 rodada de teste na latência do processo
+                  if ((processo[token].STATE[0] == -1) || (processo[token].STATE[0] == 0))
+                     latencia[token]++;
                   break;
                }
                else
                {
-                  
                   // Se tava marcado como certo, agora ta como errado
                   if (abs(processo[token].STATE[tokenTeste] % 2) == 0)
                      processo[token].STATE[tokenTeste]++;
@@ -183,17 +184,18 @@ int main(int argc, char *argv[])
                }
             }
          }
-         // printf("\n");
-         schedule(test, 30.0, token);
 
-         for (int i = 0; i < nodes->size; i++)
+         // Encerra quando todos os processos tiverem detectado a falha
+         finalizaLoop = 1;
+         for (int i = 1; i < N; i++)
          {
-            finalizaLoop = 1;
-            if (status(processo[nodes->nodes[i]].id) == 0)
+            if ((processo[i].STATE[0] == -1) || (processo[i].STATE[0] == 0))
             {
                finalizaLoop = 0;
             }
          }
+
+         schedule(test, 30.0, token);
          break;
       case fault:
          r = request(processo[token].id, token, 0);
@@ -210,7 +212,9 @@ int main(int argc, char *argv[])
          break;
    } // while
 
-   for(int i = 0; i < N; i++){
+   // Imprime vetor de latência
+   for (int i = 1; i < N; i++)
+   {
       printf("Latencia do processo %d: %d\n", i, latencia[i]);
    }
 } // tempo.c

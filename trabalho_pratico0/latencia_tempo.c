@@ -78,8 +78,8 @@ int main(int argc, char *argv[])
     {
         schedule(test, 30.0, i);
     }
-    schedule(fault, 31.0, 1);
-    schedule(recovery, 61.0, 1);
+    schedule(fault, 0.0, 0);
+    // schedule(recovery, 61.0, 1);
 
     // agora vem o loop principal do simulador
 
@@ -107,7 +107,14 @@ int main(int argc, char *argv[])
         }
     }
 
-    while (time() < 150.0)
+    int finalizaLoop = 0;
+    int latencia[N];
+    for (int i = 0; i < N; i++)
+    {
+        latencia[i] = 1;
+    }
+
+    while (1)
     {
         cause(&event, &token);
         switch (event)
@@ -140,14 +147,28 @@ int main(int argc, char *argv[])
                     // Se o processo testado ta correto, atualiza a posição dele pra 0 (correto)
                     processo[token].STATE[tokenTeste] = 0;
 
-                    //Atualiza os estados dos processos
+                    // Atualiza os estados dos processos
                     for (int i = (tokenTeste + 1) % N; i != token; i = (i + 1) % N)
                     {
                         processo[token].STATE[i] = processo[tokenTeste].STATE[i];
                     }
-                    
+
+                    // Soma 1 rodada de teste na latência do processo
+                    if ((processo[token].STATE[0] == -1) || (processo[token].STATE[0] == 0))
+                        latencia[token]++;
+
                     imprimeState(token, processo[token].STATE, N);
                     break;
+                }
+            }
+
+            //Encerra quando todos os processos tiverem detectado a falha
+            finalizaLoop = 1;
+            for (int i = 1; i < N; i++)
+            {
+                if ((processo[i].STATE[0] == -1) || (processo[i].STATE[0] == 0))
+                {
+                    finalizaLoop = 0;
                 }
             }
             schedule(test, 30.0, token);
@@ -162,6 +183,14 @@ int main(int argc, char *argv[])
             schedule(test, 1.0, token);
             break;
         } // switch
-    }     // while
 
+        if (finalizaLoop)
+            break;
+    } // while
+
+    // Imprime vetor de latência
+    for (int i = 1; i < N; i++)
+    {
+        printf("Latencia do processo %d: %d\n", i, latencia[i]);
+    }
 } // tempo.c

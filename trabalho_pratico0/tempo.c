@@ -19,9 +19,21 @@ typedef struct
 {
     int id; // identificador de facility do SMPL
             // outras variÃ¡veis locais dos processos sÃ£o declaradas aqui!
+    int *STATE;
+
 } TipoProcesso;
 
 TipoProcesso *processo;
+
+void imprimeState(int processo, int *state, int tamanho)
+{
+    printf("Vetor STATE do processo %d: ", processo);
+    for (int i = 0; i < tamanho; i++)
+    {
+        printf("%d ", state[i]);
+    }
+    printf("\n");
+}
 
 int main(int argc, char *argv[])
 {
@@ -66,8 +78,8 @@ int main(int argc, char *argv[])
     {
         schedule(test, 30.0, i);
     }
-    schedule(fault, 31.0, 1);
-    schedule(recovery, 61.0, 1);
+    schedule(fault, 31.0, 0);
+    // schedule(recovery, 61.0, 1);
 
     // agora vem o loop principal do simulador
 
@@ -79,22 +91,64 @@ int main(int argc, char *argv[])
     printf("           Tempo Total de SimulaÃ§Ã£o = %d\n", MaxTempoSimulac);
     puts("===============================================================");
 
+    // Inicializa vetor STATE de cada processo
+    for (i = 0; i < N; i++)
+    {
+        // Aloca N posições pra cada STATE
+        processo[i].STATE = (int *)malloc(sizeof(int) * N);
+
+        // Seta o valor de todas as posições como -1
+        for (int j = 0; j < N; j++)
+        {
+            if (i == j)
+                processo[i].STATE[j] = 0;
+            else
+                processo[i].STATE[j] = -1;
+        }
+    }
+
     while (time() < 150.0)
     {
         cause(&event, &token);
         switch (event)
         {
         case test:
+            // Se o processo está falho, não testa!
             if (status(processo[token].id) != 0)
-                break; // se o processo estÃ¡ falho, nÃ£o testa!
+                break;
 
-            if (status(processo[((token+1)%N)].id) != 0)
+            int tokenTeste = (token + 1) % N;
+            while (token != tokenTeste)
             {
-                printf("O processo %d testou o processo %d falho no tempo %4.1f.\n", token, ((token+1)%N), time());
-            }
-            else
-            {
-                printf("O processo %d testou o processo %d correto no tempo %4.1f.\n", token, ((token+1)%N), time());
+                // Processo falho
+                if (status(processo[tokenTeste].id) != 0)
+                {
+                    printf("O processo %d testou o processo %d falho no tempo %4.1f.\n", token, tokenTeste, time());
+
+                    // Se o processo testado ta falho, atualiza a posição dele pra 1 (falho)
+                    processo[token].STATE[tokenTeste] = 1;
+
+                    imprimeState(token, processo[token].STATE, N);
+
+                    tokenTeste = (tokenTeste + 1) % N;
+                }
+                // Processo correto
+                else
+                {
+                    printf("O processo %d testou o processo %d correto no tempo %4.1f.\n", token, tokenTeste, time());
+
+                    // Se o processo testado ta correto, atualiza a posição dele pra 0 (correto)
+                    processo[token].STATE[tokenTeste] = 0;
+
+                    //Atualiza os estados dos processos
+                    for (int i = (tokenTeste + 1) % N; i != token; i = (i + 1) % N)
+                    {
+                        processo[token].STATE[i] = processo[tokenTeste].STATE[i];
+                    }
+                    
+                    imprimeState(token, processo[token].STATE, N);
+                    break;
+                }
             }
             schedule(test, 30.0, token);
             break;
@@ -109,4 +163,5 @@ int main(int argc, char *argv[])
             break;
         } // switch
     }     // while
+
 } // tempo.c
