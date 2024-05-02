@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Trabalho SisDis Pedro A e Leonardo B</title>
+    </head>
+
+    <body>
+
+        <h1>Trabalho Pratico 0</h1>
+
+        O Trabalho 0 foi dividido em 5 partes consecutivas. Por primeiro, fomos pedidos para compilar e executar o <strong>tempo.c</strong>
+        <br><br> <a href="tarefa0.c.txt">tarefa0.c</a>
+        <br> <a href="t0LogExec1.txt">log de execução 1</a>
+        <br> <a href="t0LogExec2.txt">log de execução 2</a>
+        <br> <a href="t0LogExec3.txt">log de execução 3</a>
+        <br> <a href="t0LogExec4.txt">log de execução 4</a>
+        <br><br>
+        Em seguida, fizemos cada processo testar o seguinte(0 testa o 1, 1 testa o 2...), para isso criamos uma variável <strong>tokenTeste</strong>, que diz respeito ao próximo processo, para calculá-lo usamos o token++, cuidando para o final, em que o último teria que testar o primeiro.
+        <br><br> <a href="tarefa1.c.txt">tarefa1.c</a>
+        <br> <a href="t1LogExec1.txt">log de execução 1</a>
+        <br> <a href="t1LogExec2.txt">log de execução 2</a>
+        <br> <a href="t1LogExec3.txt">log de execução 3</a>
+        <br> <a href="t1LogExec4.txt">log de execução 4</a>
+        <br><br>
+        Após isso, tivemos que implementar a lógica de todo processo correto só parar de testar quando encontrar outro processo correto, o da tarefa passada encontrava um processo falho e então seu intervalo de testes terminava. Para isso foi necessário implementar um loop nos testes, quando um processo encontrava o próximo falho, fizemos tokenTeste++ para testar o próximo, o loop para quando token == tokenTeste (Deu uma volta completa).
+        <br><br> <a href="tarefa2.c.txt">tarefa2.c</a>
+        <br> <a href="t2LogExec1.txt">log de execução 1</a>
+        <br> <a href="t2LogExec2.txt">log de execução 2</a>
+        <br> <a href="t2LogExec3.txt">log de execução 3</a>
+        <br> <a href="t2LogExec4.txt">log de execução 4</a>
+        <br><br>
+        Na próxima tarefa, precisamos implementar o vetor <strong>STATE[N]</strong> para cada processo. Ele mantém informações que o processo conhece sobre todos os outros processos, sendo cada posição o processo correspondente no anel virtual. Inicializado com 0(correto) para ele mesmo, e -1(desconhecido) para os outros processos. A cada teste feito, o processo atualiza as informações de seu STATE, se acha um processo falho, marca com 1.
+        <br><br> <a href="tarefa3.c.txt">tarefa3.c</a>
+        <br> <a href="t3LogExec1.txt">log de execução 1</a>
+        <br> <a href="t3LogExec2.txt">log de execução 2</a>
+        <br> <a href="t3LogExec3.txt">log de execução 3</a>
+        <br> <a href="t3LogExec4.txt">log de execução 4</a>
+        <br><br>
+        Por fim do trabalho 0, precisamos fazer o vetor STATE, quando um processo testa o próximo coreto, atualizar as informações do testador sobre o estado de todos os outros processos que não foram testados no intervalo, para isso fizemos um loop do testado correto, até o testador, pegando as informações de cada um e atualizando no STATE do testador.
+
+    </body>
+</html>
