@@ -2,75 +2,1282 @@
            Sistemas DistribuÃ­dos Prof. Elias
           LOG do Trabalho PrÃ¡tico 0, Tarefa 0
       Digitar, compilar e executar o programa tempo.c
-   Este programa foi executado para: N=8 processos.
+   Este programa foi executado para: N=32 processos.
            Tempo Total de SimulaÃ§Ã£o = 150
 ===============================================================
 O processo [0] testou o processo [1] correto no tempo 30.0.
-Vetor STATE do processo 0: 0 0 -1 -1 -1 -1 -1 -1 
+Vetor STATE do processo 0: 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [0] testou o processo [2] correto no tempo 30.0.
-Vetor STATE do processo 0: 0 0 0 -1 -1 -1 -1 -1 
+Vetor STATE do processo 0: 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [0] testou o processo [4] correto no tempo 30.0.
-Vetor STATE do processo 0: 0 0 0 -1 0 -1 -1 -1 
+Vetor STATE do processo 0: 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [8] correto no tempo 30.0.
+Vetor STATE do processo 0: 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [16] correto no tempo 30.0.
+Vetor STATE do processo 0: 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [1] testou o processo [0] correto no tempo 30.0.
-Vetor STATE do processo 1: 0 0 -1 -1 -1 -1 -1 -1 
+Vetor STATE do processo 1: 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [1] testou o processo [3] correto no tempo 30.0.
-Vetor STATE do processo 1: 0 0 -1 0 -1 -1 -1 -1 
+Vetor STATE do processo 1: 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [1] testou o processo [5] correto no tempo 30.0.
-Vetor STATE do processo 1: 0 0 -1 0 -1 0 -1 -1 
+Vetor STATE do processo 1: 0 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [9] correto no tempo 30.0.
+Vetor STATE do processo 1: 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [17] correto no tempo 30.0.
+Vetor STATE do processo 1: 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [2] testou o processo [3] correto no tempo 30.0.
-Vetor STATE do processo 2: -1 -1 0 0 -1 -1 -1 -1 
+Vetor STATE do processo 2: -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [2] testou o processo [0] correto no tempo 30.0.
-Vetor STATE do processo 2: 0 0 0 0 -1 -1 -1 -1 
+Vetor STATE do processo 2: 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [2] testou o processo [6] correto no tempo 30.0.
-Vetor STATE do processo 2: 0 0 0 0 -1 -1 0 -1 
+Vetor STATE do processo 2: 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [10] correto no tempo 30.0.
+Vetor STATE do processo 2: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [18] correto no tempo 30.0.
+Vetor STATE do processo 2: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [3] testou o processo [2] correto no tempo 30.0.
-Vetor STATE do processo 3: -1 -1 0 0 -1 -1 -1 -1 
+Vetor STATE do processo 3: -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [3] testou o processo [1] correto no tempo 30.0.
-Vetor STATE do processo 3: 0 0 0 0 -1 -1 -1 -1 
+Vetor STATE do processo 3: 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [3] testou o processo [7] correto no tempo 30.0.
-Vetor STATE do processo 3: 0 0 0 0 -1 -1 -1 0 
+Vetor STATE do processo 3: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [3] testou o processo [11] correto no tempo 30.0.
+Vetor STATE do processo 3: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [3] testou o processo [19] correto no tempo 30.0.
+Vetor STATE do processo 3: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [4] testou o processo [5] correto no tempo 30.0.
-Vetor STATE do processo 4: -1 -1 -1 -1 0 0 -1 -1 
+Vetor STATE do processo 4: -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [4] testou o processo [6] correto no tempo 30.0.
-Vetor STATE do processo 4: -1 -1 -1 -1 0 0 0 -1 
+Vetor STATE do processo 4: -1 -1 -1 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [4] testou o processo [0] correto no tempo 30.0.
-Vetor STATE do processo 4: 0 0 0 -1 0 0 0 -1 
+Vetor STATE do processo 4: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [4] testou o processo [12] correto no tempo 30.0.
+Vetor STATE do processo 4: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [4] testou o processo [20] correto no tempo 30.0.
+Vetor STATE do processo 4: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [5] testou o processo [4] correto no tempo 30.0.
-Vetor STATE do processo 5: -1 -1 -1 -1 0 0 -1 -1 
+Vetor STATE do processo 5: -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [5] testou o processo [7] correto no tempo 30.0.
-Vetor STATE do processo 5: -1 -1 -1 -1 0 0 -1 0 
+Vetor STATE do processo 5: -1 -1 -1 -1 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [5] testou o processo [1] correto no tempo 30.0.
-Vetor STATE do processo 5: 0 0 -1 0 0 0 -1 0 
+Vetor STATE do processo 5: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [5] testou o processo [13] correto no tempo 30.0.
+Vetor STATE do processo 5: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [5] testou o processo [21] correto no tempo 30.0.
+Vetor STATE do processo 5: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [6] testou o processo [7] correto no tempo 30.0.
-Vetor STATE do processo 6: -1 -1 -1 -1 -1 -1 0 0 
+Vetor STATE do processo 6: -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [6] testou o processo [4] correto no tempo 30.0.
-Vetor STATE do processo 6: -1 -1 -1 -1 0 0 0 0 
+Vetor STATE do processo 6: -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [6] testou o processo [2] correto no tempo 30.0.
-Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [6] testou o processo [14] correto no tempo 30.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [6] testou o processo [22] correto no tempo 30.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [7] testou o processo [6] correto no tempo 30.0.
-Vetor STATE do processo 7: -1 -1 -1 -1 -1 -1 0 0 
+Vetor STATE do processo 7: -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [7] testou o processo [5] correto no tempo 30.0.
-Vetor STATE do processo 7: -1 -1 -1 -1 0 0 0 0 
+Vetor STATE do processo 7: -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
 O processo [7] testou o processo [3] correto no tempo 30.0.
-Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 
-Socooorro!!! Sou o processo 1  e estou falhando no tempo 31.0
-Socooorro!!! Sou o processo 2  e estou falhando no tempo 31.0
-Socooorro!!! Sou o processo 3  e estou falhando no tempo 31.0
-Socooorro!!! Sou o processo 4  e estou falhando no tempo 31.0
-Socooorro!!! Sou o processo 5  e estou falhando no tempo 31.0
-Socooorro!!! Sou o processo 6  e estou falhando no tempo 31.0
-Socooorro!!! Sou o processo 7  e estou falhando no tempo 31.0
-O processo [0] testou o processo [1] falho no tempo 60.0.
-Vetor STATE do processo 0: 0 1 0 -1 0 -1 -1 -1 
-O processo [0] testou o processo [2] falho no tempo 60.0.
-Vetor STATE do processo 0: 0 1 1 -1 0 -1 -1 -1 
-O processo [0] testou o processo [4] falho no tempo 60.0.
-Vetor STATE do processo 0: 0 1 1 -1 1 -1 -1 -1 
-Latencia do processo 0: 4
-Latencia do processo 1: 4
-Latencia do processo 2: 4
-Latencia do processo 3: 4
-Latencia do processo 4: 4
-Latencia do processo 5: 4
-Latencia do processo 6: 4
-Latencia do processo 7: 4
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [7] testou o processo [15] correto no tempo 30.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [7] testou o processo [23] correto no tempo 30.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [9] correto no tempo 30.0.
+Vetor STATE do processo 8: -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [10] correto no tempo 30.0.
+Vetor STATE do processo 8: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [12] correto no tempo 30.0.
+Vetor STATE do processo 8: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [0] correto no tempo 30.0.
+Vetor STATE do processo 8: 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [24] correto no tempo 30.0.
+Vetor STATE do processo 8: 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [8] correto no tempo 30.0.
+Vetor STATE do processo 9: -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [11] correto no tempo 30.0.
+Vetor STATE do processo 9: -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [13] correto no tempo 30.0.
+Vetor STATE do processo 9: -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [1] correto no tempo 30.0.
+Vetor STATE do processo 9: 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [25] correto no tempo 30.0.
+Vetor STATE do processo 9: 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [11] correto no tempo 30.0.
+Vetor STATE do processo 10: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [8] correto no tempo 30.0.
+Vetor STATE do processo 10: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [14] correto no tempo 30.0.
+Vetor STATE do processo 10: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [2] correto no tempo 30.0.
+Vetor STATE do processo 10: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [26] correto no tempo 30.0.
+Vetor STATE do processo 10: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [11] testou o processo [10] correto no tempo 30.0.
+Vetor STATE do processo 11: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [11] testou o processo [9] correto no tempo 30.0.
+Vetor STATE do processo 11: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [11] testou o processo [15] correto no tempo 30.0.
+Vetor STATE do processo 11: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [11] testou o processo [3] correto no tempo 30.0.
+Vetor STATE do processo 11: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [11] testou o processo [27] correto no tempo 30.0.
+Vetor STATE do processo 11: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [12] testou o processo [13] correto no tempo 30.0.
+Vetor STATE do processo 12: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [12] testou o processo [14] correto no tempo 30.0.
+Vetor STATE do processo 12: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [12] testou o processo [8] correto no tempo 30.0.
+Vetor STATE do processo 12: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [12] testou o processo [4] correto no tempo 30.0.
+Vetor STATE do processo 12: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [12] testou o processo [28] correto no tempo 30.0.
+Vetor STATE do processo 12: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [13] testou o processo [12] correto no tempo 30.0.
+Vetor STATE do processo 13: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [13] testou o processo [15] correto no tempo 30.0.
+Vetor STATE do processo 13: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [13] testou o processo [9] correto no tempo 30.0.
+Vetor STATE do processo 13: -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [13] testou o processo [5] correto no tempo 30.0.
+Vetor STATE do processo 13: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [13] testou o processo [29] correto no tempo 30.0.
+Vetor STATE do processo 13: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [14] testou o processo [15] correto no tempo 30.0.
+Vetor STATE do processo 14: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [14] testou o processo [12] correto no tempo 30.0.
+Vetor STATE do processo 14: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [14] testou o processo [10] correto no tempo 30.0.
+Vetor STATE do processo 14: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [14] testou o processo [6] correto no tempo 30.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [14] testou o processo [30] correto no tempo 30.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [15] testou o processo [14] correto no tempo 30.0.
+Vetor STATE do processo 15: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [15] testou o processo [13] correto no tempo 30.0.
+Vetor STATE do processo 15: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [15] testou o processo [11] correto no tempo 30.0.
+Vetor STATE do processo 15: -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [15] testou o processo [7] correto no tempo 30.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [15] testou o processo [31] correto no tempo 30.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [16] testou o processo [17] correto no tempo 30.0.
+Vetor STATE do processo 16: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [16] testou o processo [18] correto no tempo 30.0.
+Vetor STATE do processo 16: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [16] testou o processo [20] correto no tempo 30.0.
+Vetor STATE do processo 16: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [16] testou o processo [24] correto no tempo 30.0.
+Vetor STATE do processo 16: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [16] testou o processo [0] correto no tempo 30.0.
+Vetor STATE do processo 16: 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [17] testou o processo [16] correto no tempo 30.0.
+Vetor STATE do processo 17: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [17] testou o processo [19] correto no tempo 30.0.
+Vetor STATE do processo 17: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [17] testou o processo [21] correto no tempo 30.0.
+Vetor STATE do processo 17: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [17] testou o processo [25] correto no tempo 30.0.
+Vetor STATE do processo 17: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [17] testou o processo [1] correto no tempo 30.0.
+Vetor STATE do processo 17: 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [18] testou o processo [19] correto no tempo 30.0.
+Vetor STATE do processo 18: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [18] testou o processo [16] correto no tempo 30.0.
+Vetor STATE do processo 18: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [18] testou o processo [22] correto no tempo 30.0.
+Vetor STATE do processo 18: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [18] testou o processo [26] correto no tempo 30.0.
+Vetor STATE do processo 18: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [18] testou o processo [2] correto no tempo 30.0.
+Vetor STATE do processo 18: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [19] testou o processo [18] correto no tempo 30.0.
+Vetor STATE do processo 19: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [19] testou o processo [17] correto no tempo 30.0.
+Vetor STATE do processo 19: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [19] testou o processo [23] correto no tempo 30.0.
+Vetor STATE do processo 19: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [19] testou o processo [27] correto no tempo 30.0.
+Vetor STATE do processo 19: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [19] testou o processo [3] correto no tempo 30.0.
+Vetor STATE do processo 19: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [20] testou o processo [21] correto no tempo 30.0.
+Vetor STATE do processo 20: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [20] testou o processo [22] correto no tempo 30.0.
+Vetor STATE do processo 20: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [20] testou o processo [16] correto no tempo 30.0.
+Vetor STATE do processo 20: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [20] testou o processo [28] correto no tempo 30.0.
+Vetor STATE do processo 20: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [20] testou o processo [4] correto no tempo 30.0.
+Vetor STATE do processo 20: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [21] testou o processo [20] correto no tempo 30.0.
+Vetor STATE do processo 21: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [21] testou o processo [23] correto no tempo 30.0.
+Vetor STATE do processo 21: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [21] testou o processo [17] correto no tempo 30.0.
+Vetor STATE do processo 21: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [21] testou o processo [29] correto no tempo 30.0.
+Vetor STATE do processo 21: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [21] testou o processo [5] correto no tempo 30.0.
+Vetor STATE do processo 21: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [22] testou o processo [23] correto no tempo 30.0.
+Vetor STATE do processo 22: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [22] testou o processo [20] correto no tempo 30.0.
+Vetor STATE do processo 22: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [22] testou o processo [18] correto no tempo 30.0.
+Vetor STATE do processo 22: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [22] testou o processo [30] correto no tempo 30.0.
+Vetor STATE do processo 22: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [22] testou o processo [6] correto no tempo 30.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [23] testou o processo [22] correto no tempo 30.0.
+Vetor STATE do processo 23: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [23] testou o processo [21] correto no tempo 30.0.
+Vetor STATE do processo 23: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [23] testou o processo [19] correto no tempo 30.0.
+Vetor STATE do processo 23: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [23] testou o processo [31] correto no tempo 30.0.
+Vetor STATE do processo 23: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [23] testou o processo [7] correto no tempo 30.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [24] testou o processo [25] correto no tempo 30.0.
+Vetor STATE do processo 24: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 
+O processo [24] testou o processo [26] correto no tempo 30.0.
+Vetor STATE do processo 24: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 -1 -1 -1 -1 
+O processo [24] testou o processo [28] correto no tempo 30.0.
+Vetor STATE do processo 24: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [24] testou o processo [16] correto no tempo 30.0.
+Vetor STATE do processo 24: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [24] testou o processo [8] correto no tempo 30.0.
+Vetor STATE do processo 24: 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [25] testou o processo [24] correto no tempo 30.0.
+Vetor STATE do processo 25: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 -1 -1 
+O processo [25] testou o processo [27] correto no tempo 30.0.
+Vetor STATE do processo 25: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 -1 -1 -1 
+O processo [25] testou o processo [29] correto no tempo 30.0.
+Vetor STATE do processo 25: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [25] testou o processo [17] correto no tempo 30.0.
+Vetor STATE do processo 25: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [25] testou o processo [9] correto no tempo 30.0.
+Vetor STATE do processo 25: 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [26] testou o processo [27] correto no tempo 30.0.
+Vetor STATE do processo 26: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 
+O processo [26] testou o processo [24] correto no tempo 30.0.
+Vetor STATE do processo 26: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 
+O processo [26] testou o processo [30] correto no tempo 30.0.
+Vetor STATE do processo 26: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 0 -1 
+O processo [26] testou o processo [18] correto no tempo 30.0.
+Vetor STATE do processo 26: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [26] testou o processo [10] correto no tempo 30.0.
+Vetor STATE do processo 26: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [27] testou o processo [26] correto no tempo 30.0.
+Vetor STATE do processo 27: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 -1 -1 
+O processo [27] testou o processo [25] correto no tempo 30.0.
+Vetor STATE do processo 27: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 
+O processo [27] testou o processo [31] correto no tempo 30.0.
+Vetor STATE do processo 27: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 0 
+O processo [27] testou o processo [19] correto no tempo 30.0.
+Vetor STATE do processo 27: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [27] testou o processo [11] correto no tempo 30.0.
+Vetor STATE do processo 27: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [28] testou o processo [29] correto no tempo 30.0.
+Vetor STATE do processo 28: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 
+O processo [28] testou o processo [30] correto no tempo 30.0.
+Vetor STATE do processo 28: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 
+O processo [28] testou o processo [24] correto no tempo 30.0.
+Vetor STATE do processo 28: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 0 0 -1 
+O processo [28] testou o processo [20] correto no tempo 30.0.
+Vetor STATE do processo 28: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 
+O processo [28] testou o processo [12] correto no tempo 30.0.
+Vetor STATE do processo 28: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 
+O processo [29] testou o processo [28] correto no tempo 30.0.
+Vetor STATE do processo 29: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 -1 
+O processo [29] testou o processo [31] correto no tempo 30.0.
+Vetor STATE do processo 29: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 
+O processo [29] testou o processo [25] correto no tempo 30.0.
+Vetor STATE do processo 29: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 0 0 -1 0 
+O processo [29] testou o processo [21] correto no tempo 30.0.
+Vetor STATE do processo 29: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 
+O processo [29] testou o processo [13] correto no tempo 30.0.
+Vetor STATE do processo 29: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 
+O processo [30] testou o processo [31] correto no tempo 30.0.
+Vetor STATE do processo 30: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 
+O processo [30] testou o processo [28] correto no tempo 30.0.
+Vetor STATE do processo 30: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 
+O processo [30] testou o processo [26] correto no tempo 30.0.
+Vetor STATE do processo 30: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 
+O processo [30] testou o processo [22] correto no tempo 30.0.
+Vetor STATE do processo 30: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [30] testou o processo [14] correto no tempo 30.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [31] testou o processo [30] correto no tempo 30.0.
+Vetor STATE do processo 31: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 
+O processo [31] testou o processo [29] correto no tempo 30.0.
+Vetor STATE do processo 31: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 
+O processo [31] testou o processo [27] correto no tempo 30.0.
+Vetor STATE do processo 31: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 
+O processo [31] testou o processo [23] correto no tempo 30.0.
+Vetor STATE do processo 31: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [31] testou o processo [15] correto no tempo 30.0.
+Vetor STATE do processo 31: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Socooorro!!! Sou o processo 31  e estou falhando no tempo 31.0
+O processo [0] testou o processo [1] correto no tempo 60.0.
+Vetor STATE do processo 0: 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [2] correto no tempo 60.0.
+Vetor STATE do processo 0: 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [4] correto no tempo 60.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [8] correto no tempo 60.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [16] correto no tempo 60.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [0] correto no tempo 60.0.
+Vetor STATE do processo 1: 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [3] correto no tempo 60.0.
+Vetor STATE do processo 1: 0 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [5] correto no tempo 60.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [9] correto no tempo 60.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [17] correto no tempo 60.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [3] correto no tempo 60.0.
+Vetor STATE do processo 2: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [0] correto no tempo 60.0.
+Vetor STATE do processo 2: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [6] correto no tempo 60.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [10] correto no tempo 60.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [18] correto no tempo 60.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [3] testou o processo [2] correto no tempo 60.0.
+Vetor STATE do processo 3: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [3] testou o processo [1] correto no tempo 60.0.
+Vetor STATE do processo 3: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [3] testou o processo [7] correto no tempo 60.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [3] testou o processo [11] correto no tempo 60.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [3] testou o processo [19] correto no tempo 60.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [4] testou o processo [5] correto no tempo 60.0.
+Vetor STATE do processo 4: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [4] testou o processo [6] correto no tempo 60.0.
+Vetor STATE do processo 4: 0 0 0 -1 0 0 0 0 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [4] testou o processo [0] correto no tempo 60.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [4] testou o processo [12] correto no tempo 60.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [4] testou o processo [20] correto no tempo 60.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [5] testou o processo [4] correto no tempo 60.0.
+Vetor STATE do processo 5: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [5] testou o processo [7] correto no tempo 60.0.
+Vetor STATE do processo 5: 0 0 -1 0 0 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [5] testou o processo [1] correto no tempo 60.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [5] testou o processo [13] correto no tempo 60.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [5] testou o processo [21] correto no tempo 60.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [6] testou o processo [7] correto no tempo 60.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [6] testou o processo [4] correto no tempo 60.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [6] testou o processo [2] correto no tempo 60.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [6] testou o processo [14] correto no tempo 60.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [6] testou o processo [22] correto no tempo 60.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [7] testou o processo [6] correto no tempo 60.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [7] testou o processo [5] correto no tempo 60.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [7] testou o processo [3] correto no tempo 60.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [7] testou o processo [15] correto no tempo 60.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 
+O processo [7] testou o processo [23] correto no tempo 60.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [8] testou o processo [9] correto no tempo 60.0.
+Vetor STATE do processo 8: 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [10] correto no tempo 60.0.
+Vetor STATE do processo 8: 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [12] correto no tempo 60.0.
+Vetor STATE do processo 8: 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [0] correto no tempo 60.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [8] testou o processo [24] correto no tempo 60.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [9] testou o processo [8] correto no tempo 60.0.
+Vetor STATE do processo 9: 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [11] correto no tempo 60.0.
+Vetor STATE do processo 9: 0 0 -1 0 -1 0 -1 -1 0 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [13] correto no tempo 60.0.
+Vetor STATE do processo 9: 0 0 -1 0 -1 0 -1 -1 0 0 0 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [1] correto no tempo 60.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [9] testou o processo [25] correto no tempo 60.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [10] testou o processo [11] correto no tempo 60.0.
+Vetor STATE do processo 10: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [8] correto no tempo 60.0.
+Vetor STATE do processo 10: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [14] correto no tempo 60.0.
+Vetor STATE do processo 10: 0 0 0 0 -1 -1 0 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [2] correto no tempo 60.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [10] testou o processo [26] correto no tempo 60.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [11] testou o processo [10] correto no tempo 60.0.
+Vetor STATE do processo 11: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [11] testou o processo [9] correto no tempo 60.0.
+Vetor STATE do processo 11: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [11] testou o processo [15] correto no tempo 60.0.
+Vetor STATE do processo 11: 0 0 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [11] testou o processo [3] correto no tempo 60.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [11] testou o processo [27] correto no tempo 60.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [12] testou o processo [13] correto no tempo 60.0.
+Vetor STATE do processo 12: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [12] testou o processo [14] correto no tempo 60.0.
+Vetor STATE do processo 12: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [12] testou o processo [8] correto no tempo 60.0.
+Vetor STATE do processo 12: 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [12] testou o processo [4] correto no tempo 60.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [12] testou o processo [28] correto no tempo 60.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 
+O processo [13] testou o processo [12] correto no tempo 60.0.
+Vetor STATE do processo 13: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [13] testou o processo [15] correto no tempo 60.0.
+Vetor STATE do processo 13: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [13] testou o processo [9] correto no tempo 60.0.
+Vetor STATE do processo 13: 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [13] testou o processo [5] correto no tempo 60.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [13] testou o processo [29] correto no tempo 60.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 
+O processo [14] testou o processo [15] correto no tempo 60.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [14] testou o processo [12] correto no tempo 60.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [14] testou o processo [10] correto no tempo 60.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [14] testou o processo [6] correto no tempo 60.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [14] testou o processo [30] correto no tempo 60.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [15] testou o processo [14] correto no tempo 60.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [15] testou o processo [13] correto no tempo 60.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [15] testou o processo [11] correto no tempo 60.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [15] testou o processo [7] correto no tempo 60.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [15] testou o processo [31] falho no tempo 60.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+Processo [15] levou [5] testes para detectar o erro no processo [31]
+O processo [16] testou o processo [17] correto no tempo 60.0.
+Vetor STATE do processo 16: 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [16] testou o processo [18] correto no tempo 60.0.
+Vetor STATE do processo 16: 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [16] testou o processo [20] correto no tempo 60.0.
+Vetor STATE do processo 16: 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [16] testou o processo [24] correto no tempo 60.0.
+Vetor STATE do processo 16: 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [16] testou o processo [0] correto no tempo 60.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [17] testou o processo [16] correto no tempo 60.0.
+Vetor STATE do processo 17: 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [17] testou o processo [19] correto no tempo 60.0.
+Vetor STATE do processo 17: 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [17] testou o processo [21] correto no tempo 60.0.
+Vetor STATE do processo 17: 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [17] testou o processo [25] correto no tempo 60.0.
+Vetor STATE do processo 17: 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [17] testou o processo [1] correto no tempo 60.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [18] testou o processo [19] correto no tempo 60.0.
+Vetor STATE do processo 18: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [18] testou o processo [16] correto no tempo 60.0.
+Vetor STATE do processo 18: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [18] testou o processo [22] correto no tempo 60.0.
+Vetor STATE do processo 18: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [18] testou o processo [26] correto no tempo 60.0.
+Vetor STATE do processo 18: 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [18] testou o processo [2] correto no tempo 60.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [19] testou o processo [18] correto no tempo 60.0.
+Vetor STATE do processo 19: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [19] testou o processo [17] correto no tempo 60.0.
+Vetor STATE do processo 19: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [19] testou o processo [23] correto no tempo 60.0.
+Vetor STATE do processo 19: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [19] testou o processo [27] correto no tempo 60.0.
+Vetor STATE do processo 19: 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [19] testou o processo [3] correto no tempo 60.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [20] testou o processo [21] correto no tempo 60.0.
+Vetor STATE do processo 20: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [20] testou o processo [22] correto no tempo 60.0.
+Vetor STATE do processo 20: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 0 0 0 -1 0 0 0 0 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [20] testou o processo [16] correto no tempo 60.0.
+Vetor STATE do processo 20: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [20] testou o processo [28] correto no tempo 60.0.
+Vetor STATE do processo 20: 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [20] testou o processo [4] correto no tempo 60.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [21] testou o processo [20] correto no tempo 60.0.
+Vetor STATE do processo 21: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [21] testou o processo [23] correto no tempo 60.0.
+Vetor STATE do processo 21: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 0 0 -1 0 0 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [21] testou o processo [17] correto no tempo 60.0.
+Vetor STATE do processo 21: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [21] testou o processo [29] correto no tempo 60.0.
+Vetor STATE do processo 21: 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [21] testou o processo [5] correto no tempo 60.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [22] testou o processo [23] correto no tempo 60.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [22] testou o processo [20] correto no tempo 60.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [22] testou o processo [18] correto no tempo 60.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [22] testou o processo [30] correto no tempo 60.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [22] testou o processo [6] correto no tempo 60.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [23] testou o processo [22] correto no tempo 60.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [23] testou o processo [21] correto no tempo 60.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [23] testou o processo [19] correto no tempo 60.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [23] testou o processo [31] falho no tempo 60.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+Processo [23] levou [4] testes para detectar o erro no processo [31]
+O processo [23] testou o processo [7] correto no tempo 60.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [24] testou o processo [25] correto no tempo 60.0.
+Vetor STATE do processo 24: 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [24] testou o processo [26] correto no tempo 60.0.
+Vetor STATE do processo 24: 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 
+O processo [24] testou o processo [28] correto no tempo 60.0.
+Vetor STATE do processo 24: 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 0 0 -1 
+O processo [24] testou o processo [16] correto no tempo 60.0.
+Vetor STATE do processo 24: 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [24] testou o processo [8] correto no tempo 60.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [25] testou o processo [24] correto no tempo 60.0.
+Vetor STATE do processo 25: 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [25] testou o processo [27] correto no tempo 60.0.
+Vetor STATE do processo 25: 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 0 0 -1 0 -1 -1 
+O processo [25] testou o processo [29] correto no tempo 60.0.
+Vetor STATE do processo 25: 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 0 0 0 0 -1 0 
+O processo [25] testou o processo [17] correto no tempo 60.0.
+Vetor STATE do processo 25: 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [25] testou o processo [9] correto no tempo 60.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [26] testou o processo [27] correto no tempo 60.0.
+Vetor STATE do processo 26: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [26] testou o processo [24] correto no tempo 60.0.
+Vetor STATE do processo 26: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [26] testou o processo [30] correto no tempo 60.0.
+Vetor STATE do processo 26: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 0 0 0 0 
+O processo [26] testou o processo [18] correto no tempo 60.0.
+Vetor STATE do processo 26: 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [26] testou o processo [10] correto no tempo 60.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [27] testou o processo [26] correto no tempo 60.0.
+Vetor STATE do processo 27: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [27] testou o processo [25] correto no tempo 60.0.
+Vetor STATE do processo 27: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [27] testou o processo [31] falho no tempo 60.0.
+Vetor STATE do processo 27: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 1 
+Processo [27] levou [3] testes para detectar o erro no processo [31]
+O processo [27] testou o processo [19] correto no tempo 60.0.
+Vetor STATE do processo 27: 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [27] testou o processo [11] correto no tempo 60.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [28] testou o processo [29] correto no tempo 60.0.
+Vetor STATE do processo 28: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 
+O processo [28] testou o processo [30] correto no tempo 60.0.
+Vetor STATE do processo 28: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 
+O processo [28] testou o processo [24] correto no tempo 60.0.
+Vetor STATE do processo 28: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 
+O processo [28] testou o processo [20] correto no tempo 60.0.
+Vetor STATE do processo 28: 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [28] testou o processo [12] correto no tempo 60.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [29] testou o processo [28] correto no tempo 60.0.
+Vetor STATE do processo 29: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 
+O processo [29] testou o processo [31] falho no tempo 60.0.
+Vetor STATE do processo 29: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 1 
+Processo [29] levou [2] testes para detectar o erro no processo [31]
+O processo [29] testou o processo [25] correto no tempo 60.0.
+Vetor STATE do processo 29: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 -1 1 
+O processo [29] testou o processo [21] correto no tempo 60.0.
+Vetor STATE do processo 29: 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [29] testou o processo [13] correto no tempo 60.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [30] testou o processo [31] falho no tempo 60.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Processo [30] levou [1] testes para detectar o erro no processo [31]
+O processo [30] testou o processo [28] correto no tempo 60.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [26] correto no tempo 60.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [22] correto no tempo 60.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [14] correto no tempo 60.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [0] testou o processo [1] correto no tempo 90.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [2] correto no tempo 90.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [4] correto no tempo 90.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [8] correto no tempo 90.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 
+O processo [0] testou o processo [16] correto no tempo 90.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [1] testou o processo [0] correto no tempo 90.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [3] correto no tempo 90.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [5] correto no tempo 90.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 0 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [9] correto no tempo 90.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 
+O processo [1] testou o processo [17] correto no tempo 90.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [2] testou o processo [3] correto no tempo 90.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [0] correto no tempo 90.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [6] correto no tempo 90.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [10] correto no tempo 90.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 -1 
+O processo [2] testou o processo [18] correto no tempo 90.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [3] testou o processo [2] correto no tempo 90.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [3] testou o processo [1] correto no tempo 90.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [3] testou o processo [7] correto no tempo 90.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [3] testou o processo [11] correto no tempo 90.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 -1 -1 -1 0 -1 -1 -1 -1 
+O processo [3] testou o processo [19] correto no tempo 90.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [4] testou o processo [5] correto no tempo 90.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [4] testou o processo [6] correto no tempo 90.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [4] testou o processo [0] correto no tempo 90.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [4] testou o processo [12] correto no tempo 90.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 -1 -1 -1 -1 0 -1 -1 -1 
+O processo [4] testou o processo [20] correto no tempo 90.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [5] testou o processo [4] correto no tempo 90.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [5] testou o processo [7] correto no tempo 90.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [5] testou o processo [1] correto no tempo 90.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [5] testou o processo [13] correto no tempo 90.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 -1 -1 0 -1 -1 
+O processo [5] testou o processo [21] correto no tempo 90.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [6] testou o processo [7] correto no tempo 90.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [6] testou o processo [4] correto no tempo 90.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [6] testou o processo [2] correto no tempo 90.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [6] testou o processo [14] correto no tempo 90.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 0 -1 
+O processo [6] testou o processo [22] correto no tempo 90.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [7] testou o processo [6] correto no tempo 90.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [7] testou o processo [5] correto no tempo 90.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [7] testou o processo [3] correto no tempo 90.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [7] testou o processo [15] correto no tempo 90.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 0 
+O processo [7] testou o processo [23] correto no tempo 90.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [8] testou o processo [9] correto no tempo 90.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [8] testou o processo [10] correto no tempo 90.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [8] testou o processo [12] correto no tempo 90.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [8] testou o processo [0] correto no tempo 90.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 -1 -1 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [8] testou o processo [24] correto no tempo 90.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [9] testou o processo [8] correto no tempo 90.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [9] testou o processo [11] correto no tempo 90.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [9] testou o processo [13] correto no tempo 90.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [9] testou o processo [1] correto no tempo 90.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 -1 0 -1 -1 0 0 -1 0 -1 0 -1 -1 
+O processo [9] testou o processo [25] correto no tempo 90.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [10] testou o processo [11] correto no tempo 90.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [10] testou o processo [8] correto no tempo 90.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [10] testou o processo [14] correto no tempo 90.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [10] testou o processo [2] correto no tempo 90.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 -1 -1 0 -1 
+O processo [10] testou o processo [26] correto no tempo 90.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [11] testou o processo [10] correto no tempo 90.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [11] testou o processo [9] correto no tempo 90.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [11] testou o processo [15] correto no tempo 90.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [11] testou o processo [3] correto no tempo 90.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 -1 -1 -1 0 
+O processo [11] testou o processo [27] correto no tempo 90.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [12] testou o processo [13] correto no tempo 90.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 
+O processo [12] testou o processo [14] correto no tempo 90.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 
+O processo [12] testou o processo [8] correto no tempo 90.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 
+O processo [12] testou o processo [4] correto no tempo 90.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 
+O processo [12] testou o processo [28] correto no tempo 90.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [13] testou o processo [12] correto no tempo 90.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 
+O processo [13] testou o processo [15] correto no tempo 90.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 
+O processo [13] testou o processo [9] correto no tempo 90.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 
+O processo [13] testou o processo [5] correto no tempo 90.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 
+O processo [13] testou o processo [29] correto no tempo 90.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [14] testou o processo [15] correto no tempo 90.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [14] testou o processo [12] correto no tempo 90.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [14] testou o processo [10] correto no tempo 90.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [14] testou o processo [6] correto no tempo 90.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [14] testou o processo [30] correto no tempo 90.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [15] testou o processo [14] correto no tempo 90.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [15] testou o processo [13] correto no tempo 90.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [15] testou o processo [11] correto no tempo 90.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [15] testou o processo [7] correto no tempo 90.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [15] testou o processo [31] falho no tempo 90.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+Processo [15] levou [5] testes para detectar o erro no processo [31]
+O processo [16] testou o processo [17] correto no tempo 90.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [16] testou o processo [18] correto no tempo 90.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [16] testou o processo [20] correto no tempo 90.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 -1 -1 -1 
+O processo [16] testou o processo [24] correto no tempo 90.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [16] testou o processo [0] correto no tempo 90.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [17] testou o processo [16] correto no tempo 90.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [17] testou o processo [19] correto no tempo 90.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [17] testou o processo [21] correto no tempo 90.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 0 0 0 0 0 0 0 0 -1 0 -1 0 -1 -1 
+O processo [17] testou o processo [25] correto no tempo 90.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 
+O processo [17] testou o processo [1] correto no tempo 90.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 
+O processo [18] testou o processo [19] correto no tempo 90.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [18] testou o processo [16] correto no tempo 90.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [18] testou o processo [22] correto no tempo 90.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [18] testou o processo [26] correto no tempo 90.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [18] testou o processo [2] correto no tempo 90.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [19] testou o processo [18] correto no tempo 90.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [19] testou o processo [17] correto no tempo 90.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [19] testou o processo [23] correto no tempo 90.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [19] testou o processo [27] correto no tempo 90.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [19] testou o processo [3] correto no tempo 90.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [20] testou o processo [21] correto no tempo 90.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [20] testou o processo [22] correto no tempo 90.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [20] testou o processo [16] correto no tempo 90.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [20] testou o processo [28] correto no tempo 90.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [20] testou o processo [4] correto no tempo 90.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [21] testou o processo [20] correto no tempo 90.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [21] testou o processo [23] correto no tempo 90.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [21] testou o processo [17] correto no tempo 90.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [21] testou o processo [29] correto no tempo 90.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [21] testou o processo [5] correto no tempo 90.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [22] testou o processo [23] correto no tempo 90.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [22] testou o processo [20] correto no tempo 90.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [22] testou o processo [18] correto no tempo 90.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [22] testou o processo [30] correto no tempo 90.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [22] testou o processo [6] correto no tempo 90.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [23] testou o processo [22] correto no tempo 90.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [23] testou o processo [21] correto no tempo 90.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [23] testou o processo [19] correto no tempo 90.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [23] testou o processo [31] falho no tempo 90.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+Processo [23] levou [4] testes para detectar o erro no processo [31]
+O processo [23] testou o processo [7] correto no tempo 90.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [24] testou o processo [25] correto no tempo 90.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [24] testou o processo [26] correto no tempo 90.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [24] testou o processo [28] correto no tempo 90.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 
+O processo [24] testou o processo [16] correto no tempo 90.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [24] testou o processo [8] correto no tempo 90.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [25] testou o processo [24] correto no tempo 90.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [25] testou o processo [27] correto no tempo 90.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [25] testou o processo [29] correto no tempo 90.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 1 
+O processo [25] testou o processo [17] correto no tempo 90.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [25] testou o processo [9] correto no tempo 90.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [26] testou o processo [27] correto no tempo 90.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [26] testou o processo [24] correto no tempo 90.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [26] testou o processo [30] correto no tempo 90.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [26] testou o processo [18] correto no tempo 90.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [26] testou o processo [10] correto no tempo 90.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [27] testou o processo [26] correto no tempo 90.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [27] testou o processo [25] correto no tempo 90.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [27] testou o processo [31] falho no tempo 90.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+Processo [27] levou [3] testes para detectar o erro no processo [31]
+O processo [27] testou o processo [19] correto no tempo 90.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [27] testou o processo [11] correto no tempo 90.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [28] testou o processo [29] correto no tempo 90.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [28] testou o processo [30] correto no tempo 90.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [28] testou o processo [24] correto no tempo 90.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [28] testou o processo [20] correto no tempo 90.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [28] testou o processo [12] correto no tempo 90.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [29] testou o processo [28] correto no tempo 90.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [29] testou o processo [31] falho no tempo 90.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+Processo [29] levou [2] testes para detectar o erro no processo [31]
+O processo [29] testou o processo [25] correto no tempo 90.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [29] testou o processo [21] correto no tempo 90.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [29] testou o processo [13] correto no tempo 90.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [30] testou o processo [31] falho no tempo 90.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Processo [30] levou [1] testes para detectar o erro no processo [31]
+O processo [30] testou o processo [28] correto no tempo 90.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [26] correto no tempo 90.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [22] correto no tempo 90.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [14] correto no tempo 90.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [0] testou o processo [1] correto no tempo 120.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [0] testou o processo [2] correto no tempo 120.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [0] testou o processo [4] correto no tempo 120.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [0] testou o processo [8] correto no tempo 120.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 -1 -1 
+O processo [0] testou o processo [16] correto no tempo 120.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [1] testou o processo [0] correto no tempo 120.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [1] testou o processo [3] correto no tempo 120.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [1] testou o processo [5] correto no tempo 120.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [1] testou o processo [9] correto no tempo 120.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 -1 -1 
+O processo [1] testou o processo [17] correto no tempo 120.0.
+Vetor STATE do processo 1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 
+O processo [2] testou o processo [3] correto no tempo 120.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [2] testou o processo [0] correto no tempo 120.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [2] testou o processo [6] correto no tempo 120.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [2] testou o processo [10] correto no tempo 120.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 0 -1 
+O processo [2] testou o processo [18] correto no tempo 120.0.
+Vetor STATE do processo 2: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [3] testou o processo [2] correto no tempo 120.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [3] testou o processo [1] correto no tempo 120.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [3] testou o processo [7] correto no tempo 120.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [3] testou o processo [11] correto no tempo 120.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 0 
+O processo [3] testou o processo [19] correto no tempo 120.0.
+Vetor STATE do processo 3: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [4] testou o processo [5] correto no tempo 120.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [4] testou o processo [6] correto no tempo 120.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [4] testou o processo [0] correto no tempo 120.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [4] testou o processo [12] correto no tempo 120.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 
+O processo [4] testou o processo [20] correto no tempo 120.0.
+Vetor STATE do processo 4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [5] testou o processo [4] correto no tempo 120.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [5] testou o processo [7] correto no tempo 120.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [5] testou o processo [1] correto no tempo 120.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [5] testou o processo [13] correto no tempo 120.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 -1 0 
+O processo [5] testou o processo [21] correto no tempo 120.0.
+Vetor STATE do processo 5: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [6] testou o processo [7] correto no tempo 120.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [6] testou o processo [4] correto no tempo 120.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [6] testou o processo [2] correto no tempo 120.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [6] testou o processo [14] correto no tempo 120.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [6] testou o processo [22] correto no tempo 120.0.
+Vetor STATE do processo 6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [7] testou o processo [6] correto no tempo 120.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [7] testou o processo [5] correto no tempo 120.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [7] testou o processo [3] correto no tempo 120.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [7] testou o processo [15] correto no tempo 120.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [7] testou o processo [23] correto no tempo 120.0.
+Vetor STATE do processo 7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [8] testou o processo [9] correto no tempo 120.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [8] testou o processo [10] correto no tempo 120.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [8] testou o processo [12] correto no tempo 120.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [8] testou o processo [0] correto no tempo 120.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 
+O processo [8] testou o processo [24] correto no tempo 120.0.
+Vetor STATE do processo 8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [9] testou o processo [8] correto no tempo 120.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [9] testou o processo [11] correto no tempo 120.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [9] testou o processo [13] correto no tempo 120.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [9] testou o processo [1] correto no tempo 120.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 -1 0 
+O processo [9] testou o processo [25] correto no tempo 120.0.
+Vetor STATE do processo 9: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [10] testou o processo [11] correto no tempo 120.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [10] testou o processo [8] correto no tempo 120.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [10] testou o processo [14] correto no tempo 120.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [10] testou o processo [2] correto no tempo 120.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [10] testou o processo [26] correto no tempo 120.0.
+Vetor STATE do processo 10: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [11] testou o processo [10] correto no tempo 120.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [11] testou o processo [9] correto no tempo 120.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [11] testou o processo [15] correto no tempo 120.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [11] testou o processo [3] correto no tempo 120.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [11] testou o processo [27] correto no tempo 120.0.
+Vetor STATE do processo 11: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [12] testou o processo [13] correto no tempo 120.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [12] testou o processo [14] correto no tempo 120.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [12] testou o processo [8] correto no tempo 120.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [12] testou o processo [4] correto no tempo 120.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [12] testou o processo [28] correto no tempo 120.0.
+Vetor STATE do processo 12: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [13] testou o processo [12] correto no tempo 120.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [13] testou o processo [15] correto no tempo 120.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [13] testou o processo [9] correto no tempo 120.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [13] testou o processo [5] correto no tempo 120.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [13] testou o processo [29] correto no tempo 120.0.
+Vetor STATE do processo 13: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [14] testou o processo [15] correto no tempo 120.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [14] testou o processo [12] correto no tempo 120.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [14] testou o processo [10] correto no tempo 120.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [14] testou o processo [6] correto no tempo 120.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [14] testou o processo [30] correto no tempo 120.0.
+Vetor STATE do processo 14: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [15] testou o processo [14] correto no tempo 120.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [15] testou o processo [13] correto no tempo 120.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [15] testou o processo [11] correto no tempo 120.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [15] testou o processo [7] correto no tempo 120.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [15] testou o processo [31] falho no tempo 120.0.
+Vetor STATE do processo 15: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 
+Processo [15] levou [5] testes para detectar o erro no processo [31]
+O processo [16] testou o processo [17] correto no tempo 120.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [16] testou o processo [18] correto no tempo 120.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [16] testou o processo [20] correto no tempo 120.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [16] testou o processo [24] correto no tempo 120.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [16] testou o processo [0] correto no tempo 120.0.
+Vetor STATE do processo 16: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [17] testou o processo [16] correto no tempo 120.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 
+O processo [17] testou o processo [19] correto no tempo 120.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 
+O processo [17] testou o processo [21] correto no tempo 120.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 
+O processo [17] testou o processo [25] correto no tempo 120.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [17] testou o processo [1] correto no tempo 120.0.
+Vetor STATE do processo 17: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [18] testou o processo [19] correto no tempo 120.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [18] testou o processo [16] correto no tempo 120.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [18] testou o processo [22] correto no tempo 120.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [18] testou o processo [26] correto no tempo 120.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [18] testou o processo [2] correto no tempo 120.0.
+Vetor STATE do processo 18: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [19] testou o processo [18] correto no tempo 120.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [19] testou o processo [17] correto no tempo 120.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [19] testou o processo [23] correto no tempo 120.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [19] testou o processo [27] correto no tempo 120.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [19] testou o processo [3] correto no tempo 120.0.
+Vetor STATE do processo 19: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [20] testou o processo [21] correto no tempo 120.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [20] testou o processo [22] correto no tempo 120.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [20] testou o processo [16] correto no tempo 120.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [20] testou o processo [28] correto no tempo 120.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [20] testou o processo [4] correto no tempo 120.0.
+Vetor STATE do processo 20: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [21] testou o processo [20] correto no tempo 120.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [21] testou o processo [23] correto no tempo 120.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [21] testou o processo [17] correto no tempo 120.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [21] testou o processo [29] correto no tempo 120.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [21] testou o processo [5] correto no tempo 120.0.
+Vetor STATE do processo 21: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [22] testou o processo [23] correto no tempo 120.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [22] testou o processo [20] correto no tempo 120.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [22] testou o processo [18] correto no tempo 120.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [22] testou o processo [30] correto no tempo 120.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [22] testou o processo [6] correto no tempo 120.0.
+Vetor STATE do processo 22: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [23] testou o processo [22] correto no tempo 120.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [23] testou o processo [21] correto no tempo 120.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [23] testou o processo [19] correto no tempo 120.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [23] testou o processo [31] falho no tempo 120.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+Processo [23] levou [4] testes para detectar o erro no processo [31]
+O processo [23] testou o processo [7] correto no tempo 120.0.
+Vetor STATE do processo 23: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 1 
+O processo [24] testou o processo [25] correto no tempo 120.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [24] testou o processo [26] correto no tempo 120.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+O processo [24] testou o processo [28] correto no tempo 120.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [24] testou o processo [16] correto no tempo 120.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [24] testou o processo [8] correto no tempo 120.0.
+Vetor STATE do processo 24: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [25] testou o processo [24] correto no tempo 120.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [25] testou o processo [27] correto no tempo 120.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [25] testou o processo [29] correto no tempo 120.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [25] testou o processo [17] correto no tempo 120.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [25] testou o processo [9] correto no tempo 120.0.
+Vetor STATE do processo 25: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [26] testou o processo [27] correto no tempo 120.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [26] testou o processo [24] correto no tempo 120.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [26] testou o processo [30] correto no tempo 120.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [26] testou o processo [18] correto no tempo 120.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [26] testou o processo [10] correto no tempo 120.0.
+Vetor STATE do processo 26: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [27] testou o processo [26] correto no tempo 120.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [27] testou o processo [25] correto no tempo 120.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [27] testou o processo [31] falho no tempo 120.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+Processo [27] levou [3] testes para detectar o erro no processo [31]
+O processo [27] testou o processo [19] correto no tempo 120.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [27] testou o processo [11] correto no tempo 120.0.
+Vetor STATE do processo 27: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 1 
+O processo [28] testou o processo [29] correto no tempo 120.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [28] testou o processo [30] correto no tempo 120.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [28] testou o processo [24] correto no tempo 120.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [28] testou o processo [20] correto no tempo 120.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [28] testou o processo [12] correto no tempo 120.0.
+Vetor STATE do processo 28: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [29] testou o processo [28] correto no tempo 120.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [29] testou o processo [31] falho no tempo 120.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+Processo [29] levou [2] testes para detectar o erro no processo [31]
+O processo [29] testou o processo [25] correto no tempo 120.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [29] testou o processo [21] correto no tempo 120.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [29] testou o processo [13] correto no tempo 120.0.
+Vetor STATE do processo 29: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 1 
+O processo [30] testou o processo [31] falho no tempo 120.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Processo [30] levou [1] testes para detectar o erro no processo [31]
+O processo [30] testou o processo [28] correto no tempo 120.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [26] correto no tempo 120.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [22] correto no tempo 120.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [30] testou o processo [14] correto no tempo 120.0.
+Vetor STATE do processo 30: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+O processo [0] testou o processo [1] correto no tempo 150.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [0] testou o processo [2] correto no tempo 150.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [0] testou o processo [4] correto no tempo 150.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [0] testou o processo [8] correto no tempo 150.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 
+O processo [0] testou o processo [16] correto no tempo 150.0.
+Vetor STATE do processo 0: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 

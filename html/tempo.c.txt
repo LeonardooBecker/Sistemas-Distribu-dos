@@ -90,8 +90,9 @@ int main(int argc, char *argv[])
    {
       schedule(test, 30.0, i);
    }
-   schedule(fault, 0.0, 0);
-   // schedule(recovery, 61.0, 0);
+   schedule(fault, 31.0, 31);
+
+
 
    // agora vem o loop principal do simulador
 
@@ -127,7 +128,7 @@ int main(int argc, char *argv[])
       latencia[i] = 1;
    }
 
-   while (1)
+   while (time() < 150.0)
    {
 
       cause(&event, &token);
@@ -179,6 +180,8 @@ int main(int argc, char *argv[])
 
                   printf("O processo [%d] testou o processo [%d] falho no tempo %4.1f.\n", token, tokenTeste, time());
                   imprimeState(token, processo[token].STATE, N);
+                  printf("Processo [%d] levou [%d] testes para detectar o erro no processo [%d]\n", token, s, tokenTeste);
+
 
                   break;
                }
@@ -213,8 +216,8 @@ int main(int argc, char *argv[])
    } // while
 
    // Imprime vetor de latência
-   for (int i = 1; i < N; i++)
-   {
-      printf("Latencia do processo %d: %d\n", i, latencia[i]);
-   }
+   // for (int i = 1; i < N; i++)
+   // {
+   //    printf("Latencia do processo %d: %d\n", i, latencia[i]);
+   // }
 } // tempo.c
