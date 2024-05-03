@@ -10,7 +10,7 @@
     <body>
 
         Pedro Amaral e Leonardo Becker
-        <h1>Trabalho Pratico 0</h1>
+        <h1>Trabalho Prático 0</h1>
 
         O Trabalho 0 foi dividido em 5 partes consecutivas. Por primeiro, fomos pedidos para compilar e executar o <strong>tempo.c</strong>
         <br><br> <a href="tarefa0.c.txt">tarefa0.c</a>
@@ -40,7 +40,7 @@
         <br> <a href="t3LogExec3.txt">log de execução 3</a>
         <br> <a href="t3LogExec4.txt">log de execução 4</a>
         <br><br>
-        Por fim do trabalho 0, precisamos fazer o vetor STATE, quando um processo testa o próximo coreto, atualizar as informações do testador sobre o estado de todos os outros processos que não foram testados no intervalo, para isso fizemos um loop do testado correto, até o testador, pegando as informações de cada um e atualizando no STATE do testador.
+        Por fim do trabalho 0, precisamos fazer o vetor STATE, quando um processo testa o próximo coreto, atualiza as informações do testador sobre o estado de todos os outros processos que não foram testados no intervalo, para isso fizemos um loop do testado correto, até o testador, pegando as informações de cada um e atualizando no STATE do testador.
         <br><br> <a href="tarefa4.c.txt">tarefa4.c</a>
         <br> <a href="t4LogExec1.txt">log de execução 1</a>
         <br> <a href="t4LogExec2.txt">log de execução 2</a>
@@ -49,13 +49,13 @@
         <br><br>
         Por fim, podemos dizer que com a tarefa 4 implementamos com sucesso o <strong>vRing</strong>, pelos logs de teste podemos perceber que de fato está obedecendo aos tempos de latência e quantidade máxima de testes (<strong>N</strong> para os dois casos).
 
-        <h1>Trabalho Pratico 1</h1>
+        <h1>Trabalho Prático 1</h1>
         Feito o trabalho 0, agora a missão é implementar o algoritmo <strong>vCube (v2)</strong>.
         <br> Para implementá-lo, nos baseamos no <a href="https://ieeexplore.ieee.org/document/7016729">artigo</a> escrito pelo Professor., mais especificamente no algoritmo:
         <br> <img src="vCUbe2.png" alt="Algoritmo vCube v2"> 
         <br> Nativamente por conta da biblioteca Simpl.c, o loop já executa para cada processo <strong>i</strong>, fizemos um loop em seguida que vai entre os <strong>S</strong> da função <strong>C(i,s)</strong>, que chamamos de <strong>rounds</strong>. Para cada round, calculamos a função <strong>C(i,s)</strong> do processo em questão, e iteramos entre todos os <strong>j</strong>, que são frutos da função anterior. Se o testado está correto, fazemos dois processos:
         <br><br> Se ele estava marcado como <strong>errado</strong> (Número ímpar no campo do STATE) ou <strong>desconhecido</strong>(campo -1 no STATE), então somamos 1 na posição correspondida do state, assim se tornará um número <strong>par</strong>, que significa que está correto. 
-        Depois disso, pegamos todo o resto dos processos do mesmo <strong>cluster</strong> do testado, e chamamos nossa função <strong>obtemDiagnostico</strong>, que vasculha pelos não testados do intervalo no cluster sobre novidades dos processos (se houver alguma diferença entre os STATES, copia as informações do tal para o testador atual), assim poupando a quantidade de testes necessários e garantindo que a latência de detecção do algoritmo seja de fato <strong>logN</strong>, consequentemente a quantidade máxima de testes feitos <strong>NlogN</strong>.
+        Depois disso, pegamos todo o resto dos processos do mesmo <strong>cluster</strong> do testado, e chamamos nossa função <strong>obtemDiagnostico</strong>, que vasculha pelos não testados do intervalo no cluster sobre novidades dos processos (copiando as informações do tal para o testador atual), assim poupando a quantidade de testes necessários e garantindo que a latência de detecção do algoritmo no melhor caso seja de fato <strong>logN</strong>, consequentemente a quantidade máxima de testes feitos <strong>NlogN</strong>.
         <br><br> Se o testado estiver <strong>falho</strong>, incrementamos 1 na sua posição referente ao STATE do testador (cuidando para o caso específico dele estar como desconhecido, assim pulando de -1 para 1 direto).
         <br><br> Por fim, conseguimos visualizar que cada processo realiza de fato no máximo <strong>logN</strong> testes para detectar um evento (um processo falhar). Para calcular a função C(i,s) = [j], utilizamos o algoritmo cedido pelo professor em sua página.
 
@@ -64,5 +64,23 @@
         <br> <a href="trab1LogExec2.txt">log de execução 2</a>
         <br> <a href="trab1LogExec3.txt">log de execução 3</a>
         <br> <a href="trab1LogExec4.txt">log de execução 4</a>
+
+        <h2>Testes de Latência e Tempo de execução - vCube</h2>
+        Para auxílio da análise de latência foi criado um script em shell responsável por rodar o programa para <strong>2^i</strong> processos, sendo <strong>i</strong> pertencente ao intervalo <strong>[3,11]</strong>.
+        <br> Visou-se verificar o pior caso dos algoritmos <strong>vRing</strong> e <strong>vCube</strong>, para isso registrou-se o número de rodadas necessárias para que todos os processos do sistema distribuído detectem este erro simulado assim como o tempo necessário para a execução do algoritmo.
+        <h3>Resultados obtidos com o vRing</h3>
+        <img src="latencia_trabalho0.png" alt="Latência trabalho 0">
+        <img src="tempoExecucao_trabalho0.png" alt="Tempo de execução trabalho 0">
+        <br>Neste dois primeiros gráficos, podemos perceber que a latência do algoritmo <strong>vRing</strong> é linear seguindo o esperado de <strong>O(n)</strong>, enquanto o tempo de execução é exponencial.
+        <h3>Resultados obtidos com o vCube V2</h3>
+        <img src="latencia_trabalho1.png" alt="Latência trabalho 1">
+        <img src="tempoExecucao_trabalho1.png" alt="Tempo de execução trabalho 1">
+        <br> Já com o algoritmo <strong>vCube V2</strong>, a latência é logarítmica, seguindo o esperado de <strong>O(log²(n))</strong>, enquanto o tempo de execução é linear.
+        <br>Programas criados para gerar os gráficos: 
+        <br><a href="latencia.gp.txt">latencia</a>
+        <br><a href="tempoExecucao.gp.txt">tempoExecucao</a>
+        <br>Script criado para rodar os testes:
+        <br><a href="script.sh.txt">script</a>
+
     </body>
 </html>
